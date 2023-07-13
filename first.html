@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/prism.css">
+    <title>First Exercise</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        PP
+      </div>
+      <ul>
+        <div class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">First Exercise</a></li>
+          <li><a href="second.html">Second Exercise</a></li>
+          <li><a href="third.html">Third Exercise</a></li>
+          <li><a href="fourth.html">Fourth Exercise</a></li>
+        </div>
+      </ul>
+    </nav>
+    <main>
+      <div class="snippet">
+        <h2>Transformation from function declaration to function expression</h2>
+        <pre class="language-javascript">
+          <code>
+            const example = function(a, b, c) {
+                return a + b + c;
+            }
+          </code>
+        </pre>
+      </div>
+      <div class="test" id="test01">
+        <label for="a-1">a: </label>
+        <input type="number" id="a-1" name="a-1">
+        <label for="b-1">b: </label>
+        <input type="number" id="b-1" name="b-1">
+        <label for="c-1">c: </label>
+        <input type="number" id="c-1" name="c-1">
+        <div class="output" id="output-01"></div>
+        <div class="buttons">
+          <button id="run-01">Run</button>
+          <button id="clear-01">Clear</button>
+        </div>
+      </div>
+    </main>
+    <script src="assets/js/prism.js"></script>
+    <script src="assets/js/01_function.js"></script>
+  </body>
+</html>
